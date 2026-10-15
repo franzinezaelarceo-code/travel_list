@@ -1,0 +1,17 @@
+
+{
+  "name": "travel-bucket-list",
+  "version": "1.0.0",
+  "description": "Travel Bucket List CRUD Application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0"
+  }
+}

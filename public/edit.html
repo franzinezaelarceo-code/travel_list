@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Destination</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav>
+            <div class="logo">🌍 TravelBucket</div>
+            <span>✈ Explore the World</span>
+        </nav>
+
+        <div class="hero-content">
+            <p class="small-title">UPDATE YOUR TRIP</p>
+
+            <h1>Edit your<br>destination.</h1>
+
+            <p>
+                Update the details of your travel bucket list destination.
+            </p>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="card">
+
+            <div class="section-title">
+                <div class="icon">✏️</div>
+
+                <div>
+                    <h2>Edit Destination</h2>
+                    <p>Change your travel plans below.</p>
+                </div>
+            </div>
+
+            <form id="editForm">
+
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="country">Country</label>
+                        <input type="text" id="country" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="capital">Capital</label>
+                        <input type="text" id="capital" required>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Travel Notes</label>
+                    <textarea id="notes" required></textarea>
+                </div>
+
+                <button type="submit" class="primary-btn">
+                    Save Changes
+                </button>
+
+                <a href="index.html" class="back-button">
+                    ← Back to Bucket List
+                </a>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            🌎 Travel Bucket List • Plan your dreams, one country at a time.
+        </p>
+    </footer>
+
+    <script src="edit.js"></script>
+
+</body>
+</html>
